@@ -44,7 +44,7 @@ public class DogController {
 		
 		return "pet/petAdd";
 	}
-
+ 
 	//	마이펫 추가
 	@RequestMapping("/add")
 	public String add(@ModelAttribute DogVo dogVo , MultipartFile file, HttpSession session ,Model model) {
